@@ -1,0 +1,160 @@
+﻿2021-10-15T14:55:42.2719165-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-10-15T14:55:42.2721696-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+2021-10-15T14:55:42.2721762-06:00;VSTestExecutionThread;Info;TestAdapter Location: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-10-15T14:55:42.2727589-06:00;VSTestExecutionThread;Info;Current UserName: 'aetherus', MachineName: 'Aetherus'
+2021-10-15T14:55:42.2988945-06:00;VSTestExecutionThread;Info;SpecRun: running tests in /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowDemo.SpecFlow.dll
+2021-10-15T14:55:42.2991995-06:00;VSTestExecutionThread;Info;Output folder configured to "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/TestResults" (default)
+2021-10-15T14:55:42.2993119-06:00;VSTestExecutionThread;Info;Profile: 
+2021-10-15T14:55:42.3371748-06:00;VSTestExecutionThread;Info;Log file path: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/TestResults/Unnamed project__2021-10-15T145542.log
+2021-10-15T14:55:42.3412517-06:00;VSTestExecutionThread;Info;Checking activation
+2021-10-15T14:55:42.4201534-06:00;VSTestExecutionThread;Info;Activated.
+2021-10-15T14:55:42.4204428-06:00;VSTestExecutionThread;Info;Activation check completed
+2021-10-15T14:55:42.4207206-06:00;VSTestExecutionThread;Info;Starting test run
+2021-10-15T14:55:42.4972662-06:00;VSTestExecutionThread;Info;Discovering target: Default
+2021-10-15T14:55:42.4976799-06:00;VSTestExecutionThread;Info;Discovering tests from assembly: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowDemo.SpecFlow.dll
+2021-10-15T14:55:42.6217539-06:00;VSTestExecutionThread;Info;Discovered tests from assembly: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowDemo.SpecFlow.dll
+2021-10-15T14:55:42.6235367-06:00:Test Suite Dump
+2021-10-15T14:55:42.6260723-06:00:#0: Unnamed project/ - 
+2021-10-15T14:55:42.6263545-06:00:#1: Default - 
+2021-10-15T14:55:42.6265346-06:00:#2: SpecFlowDemo.SpecFlow - 
+2021-10-15T14:55:42.6267258-06:00:#3: Calculator - 
+2021-10-15T14:55:42.6499914-06:00:#4: Add two numbers - TestAssembly:SpecFlowDemo.SpecFlow/Feature:Calculator/Scenario:Add+two+numbers
+2021-10-15T14:55:42.6502988-06:00:End: Test Suite Dump
+2021-10-15T14:55:42.6781940-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-10-15T14:55:42.6811630-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-10-15T14:55:42.6815158-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-10-15T14:55:42.6872225-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-10-15T14:55:42.6874632-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-10-15T14:55:42.6876295-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-10-15T14:55:42.6877906-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-10-15T14:55:42.6888573-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-10-15T14:55:42.6910774-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-10-15T14:55:42.6946607-06:00:Thread #0: creating new test thread executor for SpecFlowDemo.SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-10-15T14:55:42.6982869-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-10-15T14:55:42.6988480-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-10-15T14:55:42.7020927-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-10-15T14:55:42.7060298-06:00:starting Out Of Process Executor
+2021-10-15T14:55:42.7088346-06:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-10-15T14:55:42.7132550-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-10-15T14:55:42.7132761-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-10-15T14:55:42.7150653-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0'
+2021-10-15T14:55:42.7150831-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/Microsoft.VisualStudio.Validation.dll'
+2021-10-15T14:55:42.7151346-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/Microsoft.VisualStudio.Validation.exe'
+2021-10-15T14:55:42.7151491-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0'
+2021-10-15T14:55:42.7154674-06:00:TargetFramework: .NETCoreApp,Version=v5.0
+2021-10-15T14:55:42.7158984-06:00:Tfm: netcoreapp5.0
+2021-10-15T14:55:42.7159112-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0'
+2021-10-15T14:55:42.7159172-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0/Microsoft.VisualStudio.Validation.dll'
+2021-10-15T14:55:42.7159660-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0/Microsoft.VisualStudio.Validation.exe'
+2021-10-15T14:55:42.7159808-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0'
+2021-10-15T14:55:42.7259324-06:00:Starting callback TCP Rpc server
+2021-10-15T14:55:42.7600895-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-10-15T14:55:42.7603691-06:00:Started callback TCP Rpc server on port 32768
+2021-10-15T14:55:42.7605545-06:00:Starting logger TCP Rpc server
+2021-10-15T14:55:42.7648713-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-10-15T14:55:42.7651343-06:00:Started logger TCP Rpc server on port 32769
+2021-10-15T14:55:42.8948059-06:00:Executing test executor at 'dotnet' 'exec "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/net5.0/TechTalk.SpecRun.Framework.Executor.anycpu.net5_0.dll" --remoteRunnerPid 136305 --uniqueId "2021-10-15T145542" --outputFolder "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/TestResults" --callbackPort 32768 --loggerPort 32769' in '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0'
+2021-10-15T14:55:42.8992523-06:00:Executor with PID 136326 has been started successfully.
+2021-10-15T14:55:42.9031477-06:00:Out of Process Executor 136326 started
+2021-10-15T14:55:42.9031817-06:00:Waiting for endpoint
+2021-10-15T14:55:43.1746482-06:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-10-15T14:55:43.1746800-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-10-15T14:55:43.1746871-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-10-15T14:55:43.1746950-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0'
+2021-10-15T14:55:43.1746992-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/Microsoft.VisualStudio.Threading.dll'
+2021-10-15T14:55:43.1747160-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/Microsoft.VisualStudio.Threading.exe'
+2021-10-15T14:55:43.1747265-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0'
+2021-10-15T14:55:43.1747303-06:00:TargetFramework: .NETCoreApp,Version=v5.0
+2021-10-15T14:55:43.1747504-06:00:Tfm: netcoreapp5.0
+2021-10-15T14:55:43.1747561-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0'
+2021-10-15T14:55:43.1747590-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0/Microsoft.VisualStudio.Threading.dll'
+2021-10-15T14:55:43.1747777-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0/Microsoft.VisualStudio.Threading.exe'
+2021-10-15T14:55:43.1747913-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowPlusRunner/netcoreapp5.0'
+2021-10-15T14:55:44.2464098-06:00:Remote executor port received: 32770
+2021-10-15T14:55:44.2467402-06:00:Creating executor TCP client on port 32770
+2021-10-15T14:55:44.2470552-06:00:Created executor TCP client on port 32770
+2021-10-15T14:55:44.2470671-06:00:Connecting to remote executor TCP server
+2021-10-15T14:55:44.2474510-06:00:Connected remote executor TCP server
+2021-10-15T14:55:44.2475798-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-10-15T14:55:44.2475941-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-10-15T14:55:45.2128025-06:00:2021-10-15T14:55:44.4543335-06:00:OutOfProcessTestAssemblyExecutor: initialized for /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowDemo.SpecFlow.dll on test thread #0
+2021-10-15T14:55:45.2178020-06:00:Endpoint 136326 started
+2021-10-15T14:55:45.2356033-06:00:2021-10-15T14:55:45.2351309-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-10-15T14:55:45.3515056-06:00:2021-10-15T14:55:45.3508908-06:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-10-15T14:55:45.3558712-06:00:2021-10-15T14:55:45.3552674-06:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-10-15T14:55:45.3995611-06:00:2021-10-15T14:55:45.3586500-06:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to '/home/aetherus/.nuget/packages/specflow/3.9.8/lib/netstandard2.0/TechTalk.SpecFlow.dll'
+2021-10-15T14:55:45.5132916-06:00:2021-10-15T14:55:45.5127129-06:00:Thread#0:T:-> Loading plugin /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecFlowDemo.SpecFlow.dll
+2021-10-15T14:55:45.5153008-06:00:2021-10-15T14:55:45.5145912-06:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-10-15T14:55:45.5198745-06:00:2021-10-15T14:55:45.5193645-06:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-10-15T14:55:45.5628715-06:00:2021-10-15T14:55:45.5204523-06:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to '/home/aetherus/.nuget/packages/microsoft.extensions.dependencymodel/1.0.3/lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll'
+2021-10-15T14:55:45.5996110-06:00:2021-10-15T14:55:45.5990128-06:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-10-15T14:55:45.6002975-06:00:2021-10-15T14:55:45.5999746-06:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-10-15T14:55:45.6009271-06:00:2021-10-15T14:55:45.6006160-06:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to '/home/aetherus/.nuget/packages/microsoft.dotnet.platformabstractions/1.0.3/lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll'
+2021-10-15T14:55:45.6055605-06:00:2021-10-15T14:55:45.6049723-06:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowDemo.SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-10-15T14:55:45.6495441-06:00:2021-10-15T14:55:45.6061151-06:00:Thread#0:T:-> Loading plugin /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/LivingDoc.SpecFlowPlugin.dll
+2021-10-15T14:55:45.6534844-06:00:2021-10-15T14:55:45.6528777-06:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2021-10-15T14:55:45.6543415-06:00:2021-10-15T14:55:45.6539193-06:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-10-15T14:55:45.6556227-06:00:2021-10-15T14:55:45.6549983-06:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to '/home/aetherus/.nuget/packages/specflow.plus.livingdocplugin/3.9.57/lib/netstandard2.0/LivingDoc.Dtos.dll'
+2021-10-15T14:55:45.6599132-06:00:2021-10-15T14:55:45.6592567-06:00:Thread#0:T:-> Loading plugin /home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/bin/Debug/net5.0/SpecRun.Runtime.SpecFlowPlugin.dll
+2021-10-15T14:55:45.7662300-06:00:2021-10-15T14:55:45.7232863-06:00:Thread#0:T:-> Using default config
+2021-10-15T14:55:45.7823027-06:00:2021-10-15T14:55:45.7815648-06:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-10-15T14:55:45.7832865-06:00:2021-10-15T14:55:45.7829375-06:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-10-15T14:55:45.7841621-06:00:2021-10-15T14:55:45.7837525-06:00:[AssemblyCache] Resolved 'Cucumber.Messages' to '/home/aetherus/.nuget/packages/cucumber.messages/6.0.1/lib/netstandard2.0/Cucumber.Messages.dll'
+2021-10-15T14:55:45.7856831-06:00:2021-10-15T14:55:45.7852437-06:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-10-15T14:55:45.7864177-06:00:2021-10-15T14:55:45.7861035-06:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-10-15T14:55:45.8303015-06:00:2021-10-15T14:55:45.8297477-06:00:[AssemblyCache] Resolved 'Google.Protobuf' to '/home/aetherus/.nuget/packages/google.protobuf/3.7.0/lib/netstandard1.0/Google.Protobuf.dll'
+2021-10-15T14:55:45.8378257-06:00:2021-10-15T14:55:45.8372716-06:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-10-15T14:55:45.8795305-06:00:2021-10-15T14:55:45.8383940-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-10-15T14:55:45.8807160-06:00:2021-10-15T14:55:45.8800271-06:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to '/home/aetherus/.nuget/packages/microsoft.testplatform.objectmodel/16.5.0/lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-10-15T14:55:45.9118623-06:00:2021-10-15T14:55:45.9112900-06:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-10-15T14:55:45.9125551-06:00:2021-10-15T14:55:45.9122519-06:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2021-10-15T14:55:45.9132830-06:00:2021-10-15T14:55:45.9129017-06:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to '/home/aetherus/.nuget/packages/specflow.internal.json/1.0.8/lib/netstandard2.0/SpecFlow.Internal.Json.dll'
+2021-10-15T14:55:45.9718538-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-10-15T14:55:45.9986456-06:00:2021-10-15T14:55:45.9959763-06:00:Thread#0:B:Given the first number is 50
+2021-10-15T14:55:46.0895110-06:00:2021-10-15T14:55:46.0456216-06:00:Thread#0:T:pending: CalculatorStepDefinitions.GivenTheFirstNumberIs(50)
+2021-10-15T14:55:46.0924537-06:00:2021-10-15T14:55:46.0919378-06:00:Thread#0:B:And the second number is 70
+2021-10-15T14:55:46.0941284-06:00:2021-10-15T14:55:46.0937192-06:00:Thread#0:T:skipped because of previous errors
+2021-10-15T14:55:46.1441345-06:00:2021-10-15T14:55:46.1436126-06:00:Thread#0:B:When the two numbers are added
+2021-10-15T14:55:46.1451622-06:00:2021-10-15T14:55:46.1447432-06:00:Thread#0:T:skipped because of previous errors
+2021-10-15T14:55:46.1463174-06:00:2021-10-15T14:55:46.1459143-06:00:Thread#0:B:Then the result should be 120
+2021-10-15T14:55:46.2194248-06:00:2021-10-15T14:55:46.1468324-06:00:Thread#0:T:skipped because of previous errors
+2021-10-15T14:55:47.2127616-06:00:2021-10-15T14:55:46.2272736-06:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2021-10-15T14:55:47.2631307-06:00:2021-10-15T14:55:47.2131116-06:00:Thread#0:T:  CalculatorStepDefinitions.GivenTheFirstNumberIs(50)
+2021-10-15T14:55:47.3596234-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-10-15T14:55:47.3596705-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-10-15T14:55:47.3596756-06:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-10-15T14:55:47.3596798-06:00:Thread#0:Scheduler: No more tests for thread
+2021-10-15T14:55:47.4046305-06:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 1.4319548 seconds
+2021-10-15T14:55:47.4131763-06:00:2021-10-15T14:55:47.4128409-06:00:Got Deinitialize Signal
+2021-10-15T14:55:47.4175583-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-10-15T14:55:47.4182088-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-10-15T14:55:47.4217587-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-10-15T14:55:47.4296071-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-10-15T14:55:47.4296367-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-10-15T14:55:47.4296396-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-10-15T14:55:47.4314109-06:00;VSTestExecutionThread;Info;test run finished
+2021-10-15T14:55:47.4315762-06:00;VSTestExecutionThread;Info;publishing test results
+2021-10-15T14:55:47.4317394-06:00;VSTestExecutionThread;Info;Not publishing results.
+2021-10-15T14:55:47.4318296-06:00;VSTestExecutionThread;Info;test results published
+2021-10-15T14:55:47.4319065-06:00;VSTestExecutionThread;Info;generating reports
+2021-10-15T14:55:47.5015569-06:00;VSTestExecutionThread;Info;Starting external report generation process
+2021-10-15T14:55:48.7010003-06:00;VSTestExecutionThread;Info;Successfully generated reports.
+2021-10-15T14:55:48.7024950-06:00;VSTestExecutionThread;Info;Successfully generated reports
+2021-10-15T14:55:48.7077055-06:00:Total: 1
+2021-10-15T14:55:48.7092212-06:00:Succeeded: 0
+2021-10-15T14:55:48.7094974-06:00:Ignored: 0
+2021-10-15T14:55:48.7097294-06:00:Pending: 1
+2021-10-15T14:55:48.7097391-06:00:Skipped: 0
+2021-10-15T14:55:48.7099793-06:00:Failed: 0
+2021-10-15T14:55:48.7179576-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-10-15T14:55:48.7180700-06:00;VSTestExecutionThread;Info;adding Test Execution Report '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/SpecFlowDemo.SpecFlow/TestResults/Unnamed project__2021-10-15T145542.html'
+========== End of log file ==========

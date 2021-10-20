@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dAGVkh0HKBBjnNVoUHfR1/PEcY4c1jMPTKYljmYwl6BS2ravLIFFI8oE6I0GD7HZwTuyHk0jTgzuofOV/kCbWA==",
+  "success": true,
+  "projectFilePath": "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/Calculator/Calculator.csproj",
+  "expectedPackageFiles": [
+    "/home/aetherus/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

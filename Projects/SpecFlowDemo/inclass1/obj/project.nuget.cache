@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kMudccHsAF4C3Lweinz4fwJ/Uv8wk0kJVPb84w1SUhc6lTvj9nm18Cuwb9bUZqh1HF27pSShocnXYLGnhUJqGA==",
+  "success": true,
+  "projectFilePath": "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowDemo/inclass1/inclass1.csproj",
+  "expectedPackageFiles": [
+    "/home/aetherus/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

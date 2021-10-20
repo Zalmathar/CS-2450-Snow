@@ -1,0 +1,137 @@
+Chapter 1 Recap:
+	- Software Specification, the funtionality and constraintes on its operation
+	- Software development, Produce the software to meet the specification.
+	- Software validation, Ensure with the customer that the software does what the customer wants.
+	- Sofware evolution, The evolution of the software to meet the customers needs
+
+Chapter 2 Notes:
+	2.0 - Intro
+		- It is important to describe who is involved, what is produces, and conditions the influence the project.
+		- Roles reflect the reponisibilites of people involved in the process.
+		- Pre and post conditions must be satisfied before and after a product is produced.
+		- Most sofware companies develop their own development procceses. There is not a one stop shop for development procceses for all requirments
+		  what works for some projects, wont work for other projects.
+		- Some proccesses are more structured, like in meeting saftey standards. Others are more flexible, like buisnesses that have rapidly changing
+	          requirements. 
+		- Proffesional sofware developments is a managed activiy that requires planning.
+	
+	2.1: 
+		- keyword: Software Development Life Cycle(SDLC), or also known as Software process model. Is a model representitive of a process from
+			   a particular perspective and only provides partial info about that process.  
+		- The waterfall model:
+			- Take the fundamental process activites, specification, development, validation, and evolution. Then represent them as
+                          separate process phaes such as requirements specification, sofware design, implementation, testing, and operation and maintenance.
+			- Used for safety-critical software, as lots of analysis and documentation is required before implementation begins.
+			- Used when Parts of the system are well understood.
+			- All activities are planned and scheduled before starting the development process.
+			- If requirements change the changes to the software have to approved by the customer, taking valuable time
+			- Prematurly frezing the software specification allows for bugs and issues to go unresolved. 
+		- Incremental Development:
+			- This approch interweaches specification, development, and validation. It is a system that gets developed as incremental versions
+			  with each verion adding functionality.
+			- Used with proccesses that are difficult to specify in advance.
+			- Allows for rapid feedback across activities.
+			- management can be difficult as progress is hard to track. Documentation that reflects the current version is also difficult
+			  to produce.
+			- Code can needs to be refactored occasionaly to improve the structure of the software. As degredation of structure happens
+			  over time.			
+		- Integration and configuration:
+			- Reling hevily on the availablity of reusable components or systems. This proccess takes these components and adapt them for
+			  use in a new setting, integrating them into a system.
+			- Generally other models use this to reduce the ammount of work.
+			- These systems are general-purpose systems that have many features, but have been adapted for use in a specific application.
+			- Services that are developed according to service standards are generally reused.
+			- Stages:
+				1. Requirements Specification, The initial requirements.
+				2. Software discovery and evaluation. A search is made for components and systems that provide the functionality required.
+				3. Requirements refinement. Requirments are modified to reflect the available components, and system
+				   specification is re-defined.
+				4. Application system configuration. Configure reused off-the-shelf applications to create the new system.
+				5. Component adaptation and integration. Reusable components are modified and new componenets developed, and then
+				   integrated into the system.
+		- These proceses are usually combined in different ways to create a process that is optimal for your project. 
+	- 2.2.1  (requirements stage):
+		- Three main activites in the requirements engineering process:
+			1. Requirements elicitation and analysis. Development of the idea, system modls, and prototyes to understand the system
+			   to be specified.
+			2. Requirements specification. Translate the information gathered during analysis into a documents that defines a set of
+			   requirements. Taking into account user requirements and system requirements.
+			3. Requirements validation. check the requirements for realism, consistency and completeness. Errors are discovered and 	
+			   modified the correct the problems.
+		- In agile methods, requirements specification is integerated as part of system development, where requirements are informally 
+		  specified for each increment of the system, and are specified according to user prioritites. This requires users are part of or work
+    		  closely with the development team.
+	- 2.2.2 (implementation stage) :
+		 - The process of developing and executable system for delivery to the customer. Involving seprate activites of
+                  software design and programming.
+		- The agile approach design and implementation are interweaved, with no formal design documents produced during the process.
+		  software is still designed, but takes place informally on whiteboards and programmer's notebooks.
+		- Software design is a description of the structure of software to be implemented. The models and structures used by the system.
+		  And interfaces between system componenets. Along with the algorithms that are used or developed. 
+		- Four activites that may be part of the disign process: 
+			1. Architectural desing, Identifiying the overall structure, the subsystems, teir relationships, and how they are distributed.
+			2. Database design, where system data strucures and how these are represented in a database is developed.
+			3. Interface design, where interfaces between system components is defined. Once interface specifications are agreed, 
+  			   the components can be separately designed and developed.
+			4. Components selection and design. the search for reusable compnents and implementation of resusable components. Or the 
+			  development of new components that meet your systems needs. 
+	- 2.2.3 (Validation Stage) :
+		- Verification & validation (V&V) is to show that a system conforms to its specification and meets the expectations of the customer. 
+		- Program testing is where the sytstem is executed using simulated test data, and is the principal validation technique. It may also
+		  include checking processes, such as inspections and reviews, at each stage of the software process.
+		- Except for small programs, systems shoud not be tested as a single, monolitic unit. 
+		- Three stages in the testing process :
+			1. Component testing. The componets are tested by the people developing the ystem. Each components is tested independendly.
+			   Test automation tools are used that can rerun tests when new versions of the component are created.
+			2. System testing, Components are integrated to create a complete system. It is concerned with showing that the system meets
+  			   its functional requirements, and testing the emergent system properties. 
+			3. Customer testing, The system is tested by the system customer rather than with simulated test data. This may
+			   reveal errors and omissions in the system requirements definition.
+	- 2.2.4 (Evolution Stage)
+		- Very few software systems are completely new systems, this makes the distinction between development and maintenane
+		  increasingly irrelevant.
+		- It more realitic to think of software engineering as an evolutionary process. Where software is continually chaged to meet new
+		  requirements.
+	2.3 :
+		- Change is inevitable, system requirements change as buinesses respond to growth and competetion. 
+		  New technologyies become availabe, new approaches to design and implementation become possible.
+		- Whatever software process model is used, it is essential that it can accommodate changes to the softwrare.
+		- Change adds to the costs of software development. as rework has to be done.
+		- Two approaches to reduce the costs of rework
+			1. Change anticipation, The software process includes activities that anticipate or predict possible changes 
+			   before significant rework is requried. Prototyping.
+			2. Change tolerance, The process and software are designed so that canges can be easily made to the system. 
+			   Normally involving incremental development. Where proposed changes can be implemented in increments.
+		- Two ways of coping with change :
+			1. System Prototyping, A version or part of a system is developed to check the customer's requirements and the feasibility of design decisions.
+			   Allowing the user to experiment with the system before delivery, refining their requirements.
+			2. Incremental Delivery, Where systems increments are delivered to the customer for comment and experimentation.
+			   This supports both change avoidance and change tolerance, avoiding premature commitment to requirements for thw whole system.
+		- Prototypes can be designed to create agreement of definitive requirments.
+	2.4 :
+		- There is a constant demand from industry for cheaper, better sofware, devlivered to ever tighter dealines.
+		- Software process improvement is a way of improving the quality of sofware,
+		  reducing costs, or accelerating development.
+		- Requires an understanding of the existing processes.
+		- Process maturity cycle
+			1. Process measurement
+			2. Process analysis
+			3. process change
+		- Humphrey's model
+			1. Initial, Goals associated with the process are satisfied, the work to be performed is explicitly set out and communicated.
+			2. Managed. Goals associated with the process are met, Documented project plans define the goals, Resource management and process monitoring procedures must be in place across the institution. 
+			3. Defined. Procerss assets and process measurments are collected and used for future process improvements. 
+			4. Quantitatively managed. Organizational responsibiltiy to gather data using statistical and quantitative methods to control subprocesses. 
+			5. Optimizing, Trands are analyzed. The processes gets adapted to changing business needs. 
+ 
+Questions? :
+	- How can you tell you have planned enough and are ready to start development? Can you overplan a project? 
+	- When is it acceptable to use Integration and configuration and when is it not?
+	- Is Incremental Development more flexible than the waterfall model? How do you choose wich model works best for your project.
+
+	- In Integration and configuration.When re-using component code written by someone-else, isnt it important to not infringe on copyright law?
+	- Where is the line that seperates referencing someones code online to create a component, versus plagerizing the code? 
+
+	- When desinging interfaces and the design process for that interface is being implemented. But a customer ask's for a change that effects 
+	  how that interface functions. How do you best transition to the new interface. Could this cause other dependant systems to fail?
+

@@ -1,0 +1,370 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SpecFlowFeatureFiles: Features/Calculator.feature
+-> Using default config
+  SpecFlowGeneratedFiles: Features/Calculator.feature.cs
+  Calculator -> /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/Calculator/bin/Debug/net5.0/Calculator.dll
+  SpecFlowCalculator.Spec -> /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll
+Test run for /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll (.NETCoreApp,Version=v5.0)
+Microsoft (R) Test Execution Command Line Tool Version 16.11.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll
+SpecFlow+Runner execution started
+SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+TestAdapter Location: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+Current UserName: 'aetherus', MachineName: 'Aetherus'
+SpecRun: running tests in /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll
+Output folder configured to "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/TestResults" (default)
+Profile: 
+Log file path: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/TestResults/Unnamed project__2021-10-20T125644.log
+Checking activation
+Activated.
+Activation check completed
+Starting test run
+Discovering target: Default
+Discovering tests from assembly: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll
+Discovered tests from assembly: /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll
+Scenario: Add two numbers in Calculator -> Succeeded on thread #0
+Scenario: 2nd Add two numbers in Calculator -> Succeeded on thread #0
+Scenario: Subtract two Numbers in Calculator -> Succeeded on thread #0
+Scenario: 2nd Subtract two Numbers in Calculator -> Succeeded on thread #0
+Scenario: 2nd Multiply two Numbers in Calculator -> Succeeded on thread #0
+Scenario: Multiply two numbers in Calculator -> Succeeded on thread #0
+Scenario: Divide two numbers in Calculator -> Succeeded on thread #0
+Scenario: 2nd Divide two numbers in Calculator -> Succeeded on thread #0
+  Passed Add two numbers [456 ms]
+  Standard Output Messages:
+ 
+ -> -> Loading plugin /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowCalculator.Spec.dll
+ -> -> Missing [assembly:RuntimePlugin] attribute in SpecFlowCalculator.Spec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+ -> -> Loading plugin /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/LivingDoc.SpecFlowPlugin.dll
+ -> -> Loading plugin /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecRun.Runtime.SpecFlowPlugin.dll
+ -> -> Using default config
+ 
+ Given the first number is 50
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+ 
+ And the second number is 70
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+ 
+ When the two numbers are added
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+ 
+ Then the result should be 120
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.1s)
+
+  Passed 2nd Add two numbers [142 ms]
+  Standard Output Messages:
+ Given the first number is 20
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(20) (0.0s)
+ 
+ And the second number is 30
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(30) (0.0s)
+ 
+ When the two numbers are added
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+ 
+ Then the result should be 50
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(50) (0.0s)
+
+  Passed Subtract two Numbers [149 ms]
+  Standard Output Messages:
+ Given the first number is 50
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+ 
+ And the second number is 70
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+ 
+ When the two numbers are subtracted
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)
+ 
+ Then the result should be -20
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(-20) (0.0s)
+
+  Passed 2nd Subtract two Numbers [148 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ And the second number is 50
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(50) (0.0s)
+ 
+ When the two numbers are subtracted
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)
+ 
+ Then the result should be 50
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(50) (0.0s)
+
+  Passed 2nd Multiply two Numbers [159 ms]
+  Standard Output Messages:
+ Given the first number is 200
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(200) (0.0s)
+ 
+ And the second number is 10
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(10) (0.0s)
+ 
+ When the two numbers are multiplied
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreMultiplied() (0.0s)
+ 
+ Then the result should be 2000
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(2000) (0.0s)
+
+  Passed Multiply two numbers [61 ms]
+  Standard Output Messages:
+ Given the first number is 10
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(10) (0.0s)
+ 
+ And the second number is 5
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(5) (0.0s)
+ 
+ When the two numbers are multiplied
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreMultiplied() (0.0s)
+ 
+ Then the result should be 50
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(50) (0.0s)
+
+  Passed Divide two numbers [161 ms]
+  Standard Output Messages:
+ Given the first number is 20
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(20) (0.0s)
+ 
+ And the second number is 10
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(10) (0.0s)
+ 
+ When the two numbers are divided
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreDivided() (0.0s)
+ 
+ Then the result should be 2
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(2) (0.0s)
+
+  Passed 2nd Divide two numbers [144 ms]
+  Standard Output Messages:
+ Given the first number is 0
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(0) (0.0s)
+ 
+ And the second number is 1
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(1) (0.0s)
+ 
+ When the two numbers are divided
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreDivided() (0.0s)
+ 
+ Then the result should be 0
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(0) (0.0s)
+
+Scenario: Divide by 0 in Calculator -> Succeeded on thread #0
+Scenario: Divide by two number in Calculator -> Succeeded on thread #0
+Scenario: Heber Add two numbers in Calculator -> Succeeded on thread #0
+Scenario: Heber Add two other numbers in Calculator -> Succeeded on thread #0
+Scenario: Heber Subtract a small number from a bigger number in Calculator -> Succeeded on thread #0
+Scenario: Heber Subtract a bigger number from a smaller number in Calculator -> Succeeded on thread #0
+Scenario: Heber Multiply two positive numbers in Calculator -> Succeeded on thread #0
+Scenario: Heber assignment 1 in Calculator -> Succeeded on thread #0
+Scenario: Heber assignment 2 in Calculator -> Succeeded on thread #0
+  Passed Divide by 0 [209 ms]
+  Standard Output Messages:
+ Given the first number is 1
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(1) (0.0s)
+ 
+ And the second number is 0
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(0) (0.0s)
+ 
+ When the two numbers are divided
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreDivided() (0.0s)
+ 
+ Then the user is presented with an error message
+ -> done: CalculatorStepDefinitions.TheUserIsPresentedWithAnErrorMessage() (0.0s)
+
+  Passed Divide by two number [111 ms]
+  Standard Output Messages:
+ Given the first number is 3
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(3) (0.0s)
+ 
+ And the second number is 2
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(2) (0.0s)
+ 
+ When the two numbers are divided
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreDivided() (0.0s)
+ 
+ Then the result should be 1.5
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(1.5) (0.0s)
+
+  Passed Heber Add two numbers [98 ms]
+  Standard Output Messages:
+ Given the first number is 50
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+ 
+ And the second number is 70
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+ 
+ When the two numbers are added
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+ 
+ Then the result should be 120
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)
+
+  Passed Heber Add two other numbers [63 ms]
+  Standard Output Messages:
+ Given the first number is 50
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+ 
+ And the second number is 60
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(60) (0.0s)
+ 
+ When the two numbers are added
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+ 
+ Then the result should be 110
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(110) (0.0s)
+
+  Passed Heber Subtract a small number from a bigger number [113 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ And the second number is 75
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(75) (0.0s)
+ 
+ When the two numbers are subtracted
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)
+ 
+ Then the result should be 25
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(25) (0.0s)
+
+  Passed Heber Subtract a bigger number from a smaller number [144 ms]
+  Standard Output Messages:
+ Given the first number is 10
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(10) (0.0s)
+ 
+ And the second number is 75
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(75) (0.0s)
+ 
+ When the two numbers are subtracted
+ -> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)
+ 
+ Then the result should be -65
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(-65) (0.0s)
+
+  Passed Heber Multiply two positive numbers [157 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ And the second number is 75
+ -> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(75) (0.0s)
+ 
+ When the two numbers are multiplied
+ -> done: CalculatorStepDefinitions.WhenTwoNumbersAreMultiplied() (0.0s)
+ 
+ Then the result should be 7500
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(7500) (0.0s)
+
+  Passed Heber assignment 1 [110 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ When operation + is done to the number 50
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(50) (0.0s)
+ 
+ And operation + is done to the number 80
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(80) (0.0s)
+ 
+ Then the result should be 230
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(230) (0.0s)
+
+  Passed Heber assignment 2 [186 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ When operation + is done to the number 50
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(50) (0.0s)
+ 
+ And operation + is done to the number 80
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(80) (0.0s)
+ 
+ And operation + is done to the number 80
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(80) (0.0s)
+ 
+ Then the result should be 310
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(310) (0.0s)
+
+Scenario: Heber assingment 3 in Calculator -> Succeeded on thread #0
+Scenario: Heber assignment 4 in Calculator -> Succeeded on thread #0
+test run finished
+publishing test results
+Not publishing results.
+test results published
+generating reports
+Starting external report generation process
+Starting external program: "mono" "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowPlusRunner/net461/SpecFlow.Plus.Runner.Reporting.exe" "/tmp/0dc478f3-c171-46c6-988e-7d3a6570f328" in /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0
+  Passed Heber assingment 3 [162 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ When operation + is done to the number 50
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(50) (0.0s)
+ 
+ And operation + is done to the number 80
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(80) (0.0s)
+ 
+ And operation + is done to the number 80
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(80) (0.0s)
+ 
+ And operation / is done to the number 10
+ -> done: CalculatorStepDefinitions.WhenOperationDivideIsDoneToTheNumber(10) (0.0s)
+ 
+ Then the result should be 31
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(31) (0.0s)
+
+  Passed Heber assignment 4 [120 ms]
+  Standard Output Messages:
+ Given the first number is 100
+ -> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(100) (0.0s)
+ 
+ When operation / is done to the number 50
+ -> done: CalculatorStepDefinitions.WhenOperationDivideIsDoneToTheNumber(50) (0.0s)
+ 
+ And operation - is done to the number 2
+ -> done: CalculatorStepDefinitions.WhenOperation_IsDoneToTheNumber(2) (0.0s)
+ 
+ And operation + is done to the number 10
+ -> done: CalculatorStepDefinitions.OperationPlusIsDoneToTheNumber(10) (0.0s)
+ 
+ And operation % is done to the number 3
+ -> done: CalculatorStepDefinitions.WhenOperationModIsDoneToTheNumber(3) (0.0s)
+ 
+ Then the result should be 1
+ -> done: CalculatorStepDefinitions.ThenTheResultShouldBe(1) (0.0s)
+
+'mono "/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/bin/Debug/net5.0/SpecFlowPlusRunner/net461/SpecFlow.Plus.Runner.Reporting.exe" "/tmp/0dc478f3-c171-46c6-988e-7d3a6570f328"' took 1224.5822ms
+LwBoAG8AbQBlAC8AYQBlAHQAaABlAHIAdQBzAC8ARABlAHMAawB0AG8AcAAvAE4AbwB0AGUAcwAvAHMAbwBmAHQAdwBhAHIAZQAvAFAAcgBvAGoAZQBjAHQAcwAvAFMAcABlAGMARgBsAG8AdwBDAGEAbABjAHUAbABhAHQAbwByAC8AUwBwAGUAYwBGAGwAbwB3AEMAYQBsAGMAdQBsAGEAdABvAHIALgBTAHAAZQBjAC8AVABlAHMAdABSAGUAcwB1AGwAdABzAC8AVQBuAG4AYQBtAGUAZAAgAHAAcgBvAGoAZQBjAHQAXwBfADIAMAAyADEALQAxADAALQAyADAAVAAxADIANQA2ADQANAAuAGgAdABtAGwA
+
+Successfully generated reports.
+Successfully generated reports
+Result: all tests passed
+  Total: 19
+  Succeeded: 19
+  Ignored: 0
+  Pending: 0
+  Skipped: 0
+  Failed: 0
+
+  Execution Time: 00:00:06.5504406
+Report file: file:///home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/TestResults/Unnamed%20project__2021-10-20T125644.html
+Adding attachments to VSTest
+adding Test Execution Report '/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/TestResults/Unnamed project__2021-10-20T125644.html'
+Log file: file:///home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/TestResults/Unnamed%20project__2021-10-20T125644.log
+SpecFlow+Runner execution finished
+
+Attachments:
+  /tmp/oxvpdnfz.2qd/Unnamed project__2021-10-20T125644.log
+  /tmp/oxvpdnfz.2qd/Unnamed project__2021-10-20T125644.html
+Test Run Successful.
+Total tests: 19
+     Passed: 19
+ Total time: 9.3314 Seconds

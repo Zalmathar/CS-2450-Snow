@@ -1,0 +1,91 @@
+Tanis Olesen - HW. 2
+
+2.1: Suggest the most appropriate generic software process model that might >
+for managing the development of the following systems. Explain your answer a>
+type of system being developed:
+
+        - A system to control antilock braking in a car
+
+		RESPONSE: Waterfall approach, The safety requirements that are required means that system definitions have to be concretely decided before
+		development starts.
+
+        - A virtual reality system to support software maintenance
+
+		RESPONSE: Incremental Development, As system and user requirements change it would be best to take an incremental approach, as it would 
+		be difficult to identify processes in advance. 
+
+        - A university accounting system that replaces an existing system
+
+		RESPONSE: Waterfall approach. As the new piece of software gets developed, the University would still need all the features of their
+		old system, making an incremental approach infeasible because all of the processes the customer needs, has not yet all been added to 
+		the new software.
+
+        - An interactive travel planning system that helps users plan journeys with the lowest environmental impact
+
+ 		RESPONSE: Incremental Development, As new more accurate ways to predict, analyze, and model the environmental impact travel will have incurred.
+		The software needs to get updated, and systems changed to keep up with the newer, more accurate models. Incremental Development would 
+		give that flexibility.
+
+2.2. Incremental software development could be very effectively used for customers who do not
+have a clear idea about the systems needed for their operations. Discuss.
+
+	RESPONSE: Correct, you would be able to give the customer prototypes, and incremental changes to the software. This helps identify
+	what systems are needed, and what features the customer wants added or changed. It will help develop the software to what the customers
+	need are. 
+
+2.3. Consider the integration and configuration process model shown in Figure 2.3. Explain why it
+is essential to repeat the requirements engineering activity in the process.
+
+	RESPONSE: To ensure that the requirements being used are accurate, feasible, and consistent.  Additional errors in the
+	requirements can be found and corrected.
+
+2.4. Suggest why it is important to make a distinction between developing the user requirements
+and developing system requirements in the requirements engineering process.
+
+	RESPONSE: System requirements are a more detailed description of the service to be provided. User requirements are abstract statements of the system
+	requirements for the customer and end-user of the system. It is important to know the difference to help determine what the final product will 
+	look like.
+
+2.5. Using an example, explain why the design activities of architectural design, database design,
+interface design, and component design are interdependent.
+
+	RESPONSE: These activities are interdependent because the final product is influenced by the decisions in each of these activities.
+	For example a car has many different systems inside of it. An engine, transmission, fuel delivery system, radio system, dashboard controls,
+	steering wheel controls. Many of these systems interact with each other. If a engine designer puts together a powerful engine, and a car body
+	designer does not make the body strong enough to support amount of torque the engine produces. The car will twist itself apart. 
+	If communication and guidelines between these activities doesn't happen. The software, like the car, would fall apart.
+
+2.6. Explain why software testing should always be an incremental, staged activity. Are programmers the best people to test the programs that they have developed?
+
+	RESPONSE: When you do incremental testing it is easier to diagnose a bug or error. Just like in the scientific method, you isolate variables
+	so when things go unexpected you know exactly what changed from the last successful test. 
+
+2.7. Imagine that a government wants a software program that helps to keep track of the utilization of the country’s vast mineral resources. Although the requirements put forward by the
+government were not very clear, a software company was tasked with the development of a
+prototype. The government found the prototype impressive, and asked it be extended to be
+the actual system that would be used. Discuss the pros and cons of taking this approach.
+  
+	RESPONSE: Pros:
+			- Able to quickly give an expectation to the customer of what to expect.
+			- Customer is able to give feedback on system requirements, what needs to be added, changed, and improved.
+		 Cons:
+			- User experience on the prototype and final product could be vastly different.
+			- User feedback is only based on what functionality it currently has, users could be using the program different in
+			  the final product.
+
+2.8. You have developed a prototype of a software system and your manager is very impressed by
+it. She proposes that it should be put into use as a production system, with new features
+added as required. This avoids the expense of system development and makes the system
+immediately useful. Write a short report for your manager explaining why prototype systems
+should not normally be used as production systems.
+
+	RESPONSE: Prototype systems do not take into account every product requirement. It only contains the core functionality
+	that enables a better model for the desired final system. Using it in production systems could cause unexpected errors and bugs 
+	causing other pieces in the production system to fail.
+
+2.9. Suggest two advantages and two disadvantages of the approach to process assessment and
+improvement that is embodied in the SEI’s Capability Maturity framework.
+
+	RESPONSE: It provides a guideline on how processes can be improved, and provides a path for processes to get improved. Another advantage
+	would be uniformity when it comes to improving processes. Some disadvantages would be that it requires allot of data, and analysis of that
+	data before change can be implemented. 
