@@ -259,4 +259,3 @@
 /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/obj/Debug/net5.0/ref/SpecFlowCalculator.Spec.dll
 /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/obj/Debug/net5.0/SpecFlowCalculator.Spec.pdb
 /home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/obj/Debug/net5.0/SpecFlowCalculator.Spec.genruntimeconfig.cache
-/home/aetherus/Desktop/Notes/software/Projects/SpecFlowCalculator/SpecFlowCalculator.Spec/obj/Debug/net5.0/SpecFlowCalculator.Spec.csproj.CopyComplete
