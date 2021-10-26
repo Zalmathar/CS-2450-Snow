@@ -156,5 +156,6 @@ namespace SpecFlowCalculator.Spec.Steps
             _scenarioContext.ContainsKey("Exception").Should().BeTrue();
         }
 
+        public []<mytpe
     }
 }
